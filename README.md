@@ -14,7 +14,7 @@ wavやmp3ファイルでカラオケができます。
 * audioフォルダには解析結果が保存されます。
 
 # DEMO
-coming soon.....
+[!['altテキスト']('[サムネイル画像のURL](https://youtu.be/yQO-JehapRA)')]('[Youtube動画のURL](https://youtu.be/yQO-JehapRA)')
 
 # Installation
 pip install -r requirements.txt
