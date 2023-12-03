@@ -80,7 +80,8 @@ class chroma_detection():
     def get_chroma(self, indata):
         pw = np.sqrt(np.mean(indata**2))
 
-        if 0.01< pw:
+        # consts.mic_thread: mic sensibility
+        if consts.mic_thread< pw:
             sig = np.reshape(indata, (consts.CHUNK, consts.CHANNEL)).T
             sig[:] = sig[:] * self.window
             self.specs[:] = np.abs(np.fft.rfft(sig))**2

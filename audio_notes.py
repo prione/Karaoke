@@ -5,6 +5,7 @@ from vad import vad
 import audio_splitter
 import vocal_to_midi
 import numpy as np
+import consts
 
 def get():
     if not os.path.exists("./audio"):
@@ -27,7 +28,8 @@ def get():
 
     midi_data = vocal_to_midi.get(vocal)
     midi_data.remove_invalid_notes()
-    sr = 8
+    # sr: Notes Detection Sensitivity
+    sr = consts.Notes_Detection_Sensitivity
     piano = midi_data.get_piano_roll(fs=sr, pedal_threshold=None)
     p_times = np.arange(0, midi_data.get_end_time(), 1./sr)
     p_notes = piano.argmax(axis=0)
