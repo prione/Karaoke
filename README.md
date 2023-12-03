@@ -1,10 +1,12 @@
 # Karaoke
 ENG
+
 Play karaoke with wav/mp3 files.
 * Use the default input device for the input interface
 * First-time sound source analysis takes time.
 
 JP
+
 wavやmp3ファイルでカラオケができます。
 * 入力インタフェースにはデフォルトの入力デバイスを使用します。
 * 初回の音源解析には時間がかかります。
