@@ -3,7 +3,6 @@ Play karaoke with wav/mp3 files.
 * Use the default input device for the input interface
 * First-time sound source analysis takes time.
 
-/////////////////////////
 wavやmp3ファイルでカラオケができます。
 * 入力インタフェースにはデフォルトの入力デバイスを使用します。
 * 初回の音源解析には時間がかかります。
@@ -20,7 +19,7 @@ pip install -r requirements.txt
 3. Select the sound source.
 4. 🎤
 
-/////////////////////////
+
 1. audioフォルダに音源を配置
 2. "python main.py" コマンドで起動
 3. 音源を選択
