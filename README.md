@@ -13,7 +13,7 @@ wavやmp3ファイルでカラオケができます。
 * 初回の音源解析には時間がかかります。
 * audioフォルダには解析結果が保存されます。
 
-![karaoke](https://github.com/prione/Karaoke/assets/92021420/0dc5d9a1-f8bd-42bb-8f5b-03215802ac65)
+<img src=https://github.com/prione/Karaoke/assets/92021420/0dc5d9a1-f8bd-42bb-8f5b-03215802ac65 width="30%" />
 
 # DEMO
 [![alt設定](http://img.youtube.com/vi/yQO-JehapRA/0.jpg)](https://www.youtube.com/watch?v=yQO-JehapRA)
